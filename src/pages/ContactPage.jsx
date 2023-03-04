@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-const ResumePage = (props) => {
+const ContactPage = (props) => {
 
 
   return (
@@ -10,4 +9,5 @@ const ResumePage = (props) => {
   )
 }
 
-export default ResumePage;
+
+export default ContactPage;
