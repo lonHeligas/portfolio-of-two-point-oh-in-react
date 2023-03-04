@@ -1,23 +1,20 @@
 import React from 'react';
-import Navigation from '.';
+import Navigation from './Navigation';
 
 const Header = (props) => {
 
   return (
-    <header style={{ borderBottom: '1px solid +333'}}>
-      
+    <>
+      <header style={{ borderBottom: '1px solid +333'}}>
+        <Navigation >
 
 
 
 
 
-
-
-
-
-
-
-    </header>
+        </Navigation>
+      </header>
+    </>
   )
 
 
