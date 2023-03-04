@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import './components/AboutMe'
+import { IntroPage, PortfolioPage, ResumePage, ContactPage } from './pages';
 
 function App() {
   return (
