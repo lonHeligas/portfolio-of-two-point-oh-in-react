@@ -5,9 +5,7 @@ const PortfolioPage = (props) => {
   return (
     <>
     </>
-
-
-  )
+  );
 }
 
 

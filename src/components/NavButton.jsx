@@ -7,7 +7,7 @@ const NavButton = (props) => {
     <>
     <Button variant="primary">Primary</Button>{' '}
     </>
-  )
+  ) 
 }
 
 

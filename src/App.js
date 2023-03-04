@@ -1,20 +1,20 @@
 import './App.css';
+import { useState } from 'react';
 import { Header, Wrapper, Footer } from './components';
-
-
 import { IntroPage, PortfolioPage, ResumePage, ContactPage } from './pages';
+
+import "bootstrap/dist/css/bootstrap.min.css"
+import "./styles/global.css"
 
 function App() {
   return (
     <Wrapper>
       <Header>
-        <div>
-          <h1>This is the Header</h1>
-        </div>
+       
 
       </Header>
       <Footer>
-        <h1>This is the Footer</h1>
+       
       </Footer>   
     
     </Wrapper>

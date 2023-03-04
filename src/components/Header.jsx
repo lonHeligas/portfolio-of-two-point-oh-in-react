@@ -8,10 +8,6 @@ const Header = (props) => {
       <header style={{ borderBottom: '1px solid +333'}}>
         <Navigation >
 
-
-
-
-
         </Navigation>
       </header>
     </>
