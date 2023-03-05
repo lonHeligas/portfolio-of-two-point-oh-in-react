@@ -8,7 +8,7 @@ const PortfolioPage = (props) => {
     <>
     <h1>Portfolio</h1>
     <CardGroup>
-      <PortfolioCard />  
+      <BridgeClock />
       <PortfolioCard />  
       <PortfolioCard />  
       <PortfolioCard />  
@@ -17,5 +17,9 @@ const PortfolioPage = (props) => {
   );
 }
 
+
+const BridgeClock = () => {
+  <PortfolioCard title="portfoliio piece 1 "></PortfolioCard>  
+}
 
 export default PortfolioPage;

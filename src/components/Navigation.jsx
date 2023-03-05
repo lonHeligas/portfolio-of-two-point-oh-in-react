@@ -9,7 +9,14 @@ const Navigation = (props) => {
 
   
   
-  const NavSections = ["About Me", "Portfolio", "Contact", "Resume"];
+  const NavSections = [
+    { name: "About Me", href: '/' },
+    { name: "Portfolio", href: '/portfolio' },
+    { name:"Contact", href: '/contact' },
+    { name:"Resume", href: '/resume' }
+  ];
+
+  
   return (
     <header style={{ borderBottom: "5px solid #333" }}>
       <nav
@@ -31,18 +38,7 @@ const Navigation = (props) => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-flex p-7">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">About Me</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/portfolio">Portfolio</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/contact">Contact Me</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/resume">Resume</a>
-              </li>
+              {NavSections.map(section => <NavButton {...section} />)}             
               
             </ul>
           </div>
@@ -53,5 +49,7 @@ const Navigation = (props) => {
     
   );
 };
+
+
 
 export default Navigation;

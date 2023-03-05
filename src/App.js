@@ -4,6 +4,7 @@ import { Header, Wrapper, Footer } from './components';
 import { IntroPage, PortfolioPage, ResumePage, ContactPage } from './pages';
 
 import "bootstrap/dist/css/bootstrap.min.css"
+import "./styles/custom.css"
 import "./styles/global.css"
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       { page === 'contact' && <ContactPage />}
       { page === 'portfolio' && <PortfolioPage />}
       { page === 'resume' && <ResumePage />}
-      
+
       <Footer />       
     </Wrapper>
   );
