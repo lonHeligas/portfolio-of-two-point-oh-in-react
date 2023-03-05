@@ -4,7 +4,10 @@ import { IntroPage, PortfolioPage, ResumePage, ContactPage } from "../pages";
 
 
 const Navigation = (props) => {
-  const page = window.location.href;
+
+  
+
+  
   
   const NavSections = ["About Me", "Portfolio", "Contact", "Resume"];
   return (

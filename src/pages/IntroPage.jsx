@@ -5,6 +5,7 @@ const IntroPage = (props) => {
 
   return (
     <>
+    <h1>Intro</h1>
     </>
   )
 }

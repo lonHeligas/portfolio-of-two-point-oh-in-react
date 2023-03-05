@@ -5,6 +5,7 @@ const ContactPage = (props) => {
 
   return (
     <>
+      <h1>Contact</h1>
     </>
   )
 }
