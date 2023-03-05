@@ -2,11 +2,11 @@ import React from "react";
 import NavButton from "./NavButton";
 import { IntroPage, PortfolioPage, ResumePage, ContactPage } from "../pages";
 
-const NavSections = ["About Me", "Portfolio", "Contact", "Resume"];
 
 const Navigation = (props) => {
   const page = window.location.href;
-
+  
+  const NavSections = ["About Me", "Portfolio", "Contact", "Resume"];
   return (
     <header style={{ borderBottom: "5px solid #333" }}>
       <nav
