@@ -1,7 +1,9 @@
 import React from 'react';
 import PortfolioCard from '../components/PortfolioCard';
+import PortfolioLarger from '../components/PortfolioLarger';
 import CardGroup from 'react-bootstrap/CardGroup';
 import ProfileCreatorApp from '../portfolio-data/ProfileCreatorAppData';
+
 
 const PortfolioPage = (props) => {
 
