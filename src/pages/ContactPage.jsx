@@ -33,7 +33,7 @@ const ContactPage = (props) => {
         <Form.Text className="text-muted"></Form.Text>
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Leave a comment!</Form.Label>
+        <Form.Label>Leave a comment! I'd love to hear from you!</Form.Label>
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
       <Button variant="primary" type="submit">
