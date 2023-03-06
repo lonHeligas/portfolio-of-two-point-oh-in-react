@@ -3,9 +3,9 @@ import React from 'react';
 const ProfileCreatorApp = [
   {title:  "Profile Creator for Your Team"},
   {gitUrl: "git URL"},
-  {webUrl: "web blurb"},
-  {text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb"},
-  {img: "image link"}
+  // {webUrl: "web blurb"},
+  // {text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb"},
+  // {img: "image link blargh"}
 ]
 
 
