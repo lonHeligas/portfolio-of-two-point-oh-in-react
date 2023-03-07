@@ -1,3 +1,15 @@
+/* .card-image {
+  
+} */
+
+/* .card-columns {
+  display: flex;
+} */
+.card-body {
+  margin-bottom: 30px;
+  width: 50%
+}
+
 .card-title {
   color: white;
 }
