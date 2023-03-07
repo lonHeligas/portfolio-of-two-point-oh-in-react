@@ -3,9 +3,9 @@ import './App.css';
 import { Header, Wrapper, Footer } from './components';
 import { IntroPage, PortfolioPage, ResumePage, ContactPage } from './pages';
 
+import "./styles/global.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./styles/custom.css"
-import "./styles/global.css"
 
 function App() {
 

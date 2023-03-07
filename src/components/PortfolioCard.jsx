@@ -5,11 +5,11 @@ import Button from 'react-bootstrap/Button';
 import "../styles/portfoliocard.css"
 
 
+// console.log(`title is: ${title}`); 
 
 
 const PortfolioCard = ({title, text, img}) => {
   
-  console.log(`title is: ${title}`); 
   return (
     <Col className="card-columns" md="6">
       <Card className='p-1 card-body' style={{ width: '25rem', height: '15rem', cursor: "pointer "}}>

@@ -1,14 +1,16 @@
 import React from 'react';
 import Bio from '../components/Bio'
-import BioImage from '../components/BioImage'
+import BioImage from "../components/BioImage"
+import "../styles/bio.css"
 
-const IntroPage = (props) => {
+
+const IntroPage = () => {
 
 
   return (
     <>
       <BioImage />
-      <Bio />
+      <Bio className='bio-text'/>
     </>
   )
 }
