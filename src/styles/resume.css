@@ -1,0 +1,141 @@
+body {
+  backdrop-filter: grayscale(100%) opacity(100%) brightness(100%) blur(50px);
+   
+}
+
+.divider {
+   display:block;
+  position: absolute;
+    top:60px;
+  left:50%;
+  border-bottom:1px solid white;
+  width:0%;
+  text-align:center;
+  animation: line .75s linear forwards;
+}
+
+h1 {
+  background-image: url("");
+  color: white;  
+  font-family: Arial, Calibri, sans-serif;
+  margin-bottom: -20px; 
+}
+
+
+h2 {
+  color: white;
+  font-family: Arial, Calibri, sans-serif;
+  margin-bottom: -12px;
+  padding-left: 20px;  
+}
+
+h3 {
+  color: white;
+  font-family: Arial, Calibri, sans-serif;
+  margin-bottom: -12px;
+   padding-left: 20px;
+}
+
+h4 {
+  color: white;
+  font-family: Arial, Calibri, sans-serif;
+}
+
+h5 {
+  color: white;
+  font-family: Arial, Calibri, sans-serif;
+  margin-bottom: -12px;  
+}
+
+p, li { 
+  color: white;
+  font-family: Arial, Calibri, sans-serif;
+  line-height: 17px   
+}
+p {
+  margin-left: -15px
+}
+
+.name {
+   color: white;
+  text-align: center;
+  animation: fadeIn .5s;
+}
+
+.banner-image{
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+}
+
+.address-info{
+  text-align: center;
+  display:flex;
+  width: 100%;
+  justify-content: space-around;  
+  animation: fadeIn 1s;  }
+
+.prof-summary{
+   animation: fadeIn 1.25s;     
+  
+}
+
+.summary-text{
+  
+  margin-left: 20px;
+  padding-right: 10px;
+  
+}
+
+.experience-title{
+    animation: fadeIn 1.5s;
+}
+
+.company{
+    animation: fadeIn 1.75s;
+}
+
+.company-title{
+   margin-bottom: -20px;
+  animation: fadeIn 2s;
+}
+
+.work-role{
+  padding-left: 25px;
+  animation: fadeIn 2.25s;
+}
+
+.role-bullet{   
+  animation: fadeIn 2.5s;
+ 
+}
+
+.education{
+     animation: fadeIn 2.75s;
+}
+
+.education-info{
+  padding-left: 50px;     
+  animation: fadeIn 3s;  
+}
+
+.summary-text{
+  padding-left: 20px;
+}
+
+@keyframes fadeIn {
+   0% { opacity: 0;}   
+    100% { opacity: 1;}
+}
+
+@keyframes line {
+  from {
+    left:50%;
+    width:0%;
+  }
+  to {
+    left:5%;
+    width:90%;
+  }
+}

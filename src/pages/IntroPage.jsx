@@ -1,11 +1,12 @@
 import React from 'react';
+import Bio from '../components/Bio'
 
 const IntroPage = (props) => {
 
 
   return (
     <>
-    <h1>Intro</h1>
+      <Bio />
     </>
   )
 }

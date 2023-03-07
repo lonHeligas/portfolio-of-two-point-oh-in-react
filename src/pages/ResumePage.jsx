@@ -1,11 +1,12 @@
 import React from 'react';
+import Resume from '../components/Resume'
 
 
 const ResumePage = (props) => {
 
   return (    
     <>
-      <h1>Resume</h1>
+     <Resume />
     </>
   )
 }
