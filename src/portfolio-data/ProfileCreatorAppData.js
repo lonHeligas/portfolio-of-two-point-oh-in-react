@@ -1,11 +1,42 @@
 import React from 'react';
+import profileImage from "../images/profilecreatorimg.png"
 
 const ProfileCreatorApp = [
-  {title:  "Profile Creator for Your Team"},
-  {gitUrl: "git URL"},
-  // {webUrl: "web blurb"},
-  // {text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb"},
-  // {img: "image link blargh"}
+  {title:  "Profile Creator for Your Team",
+  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  gitUrl: "git URL",
+  webUrl: "web blurb",
+  img: profileImage},
+
+  {title:  "Profile Creator for Your Team",
+  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  gitUrl: "git URL",
+  webUrl: "web blurb",
+  img: profileImage}, 
+
+  {title:  "Profile Creator for Your Team",
+  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  gitUrl: "git URL",
+  webUrl: "web blurb",
+  img: profileImage}, 
+  
+  {title:  "Profile Creator for Your Team",
+  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  gitUrl: "git URL",
+  webUrl: "web blurb",
+  img: profileImage},
+
+  {title:  "Profile Creator for Your Team",
+  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  gitUrl: "git URL",
+  webUrl: "web blurb",
+  img: profileImage},
+
+  {title:  "Profile Creator for Your Team",
+  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  gitUrl: "git URL",
+  webUrl: "web blurb",
+  img: profileImage}
 ]
 
 
