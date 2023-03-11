@@ -16,7 +16,8 @@ const PortfolioCard = ({title, text, img}) => {
         <Card.Img className='card-image' src={img} />
         <Card.ImgOverlay>
           <Card.Title className='card-title drop-shadow'>{title}</Card.Title>
-          <Card.Text className='card-body drop-shadow'>{text}</Card.Text>
+          {/* <Card.Text className='card-body drop-shadow'>{text}</Card.Text> */}
+          
         </Card.ImgOverlay>
       </Card>
     </Col>

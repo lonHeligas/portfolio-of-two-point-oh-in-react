@@ -6,7 +6,8 @@
 .intro-page-layout {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .bio-text-body {
@@ -17,7 +18,7 @@
 .bio-image {
   border-style: solid;
   border-width: 10px;
-  border-color: brown;
+  border-color: white;
   
   width: 50%;
   height: 50%;
