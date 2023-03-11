@@ -9,8 +9,10 @@ const IntroPage = () => {
 
   return (
     <>
+    <div className='container intro-page-layout'>
       <BioImage />
       <Bio className='bio-text'/>
+    </div>    
     </>
   )
 }

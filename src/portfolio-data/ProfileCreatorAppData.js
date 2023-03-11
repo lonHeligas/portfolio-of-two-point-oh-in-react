@@ -3,7 +3,7 @@ import profileImage from "../images/profilecreatorimg.png"
 
 const ProfileCreatorApp = [
   {title:  "Game",
-  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  text: "text blurbtext",
   gitUrl: "git URL",
   webUrl: "web blurb",
   img: profileImage},
@@ -20,19 +20,19 @@ const ProfileCreatorApp = [
   webUrl: "web blurb",
   img: profileImage}, 
   
-  {title:  "Profile Creator for Your Team",
+  {title:  "Password Generator",
   text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
   gitUrl: "git URL",
   webUrl: "web blurb",
   img: profileImage},
 
-  {title:  "Profile Creator for Your Team",
+  {title:  "Weather U Need to Know",
   text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
   gitUrl: "git URL",
   webUrl: "web blurb",
   img: profileImage},
-
-  {title:  "Profile Creator for Your Team",
+  
+  {title:  "Quiz for Geeks",
   text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
   gitUrl: "git URL",
   webUrl: "web blurb",

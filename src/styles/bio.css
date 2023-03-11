@@ -2,3 +2,41 @@
   color: purple;
   margin-left: 500px;
 }
+
+.intro-page-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.bio-text-body {
+  margin-left: 100px !important;
+  margin-top: 80px !important;  
+}
+
+.bio-image {
+  border-style: solid;
+  border-width: 10px;
+  border-color: brown;
+  
+  width: 50%;
+  height: 50%;
+  border-radius: 30px 150px 150px 30px;
+  /* margin-left: 10px; */
+}
+
+.module { 
+  /* color: white; */
+  border-radius: 30px 150px 150px 30px;
+  /* padding: 2rem; */
+}
+
+.module-border-wrap {
+  /* max-width: 450px; */
+  padding: 1rem;
+  position: relative;
+  border-radius: 30px 150px 150px 30px;
+  background: linear-gradient(120deg, #6b0504, #a3320b, #e6af2e);
+  /* padding: 3px; */
+}
+

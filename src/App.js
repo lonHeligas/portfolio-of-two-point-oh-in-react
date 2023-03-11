@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Header, Wrapper, Footer } from './components';
 import { IntroPage, PortfolioPage, ResumePage, ContactPage } from './pages';
-
 import "./styles/global.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./styles/custom.css"

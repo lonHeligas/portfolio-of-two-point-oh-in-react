@@ -12,12 +12,11 @@ const PortfolioCard = ({title, text, img}) => {
   
   return (
     <Col className="card-columns" md="6">
-      <Card className='p-1 card-body' style={{ width: '25rem', height: '15rem', cursor: "pointer "}}>
+      <Card className='p-1 card-body' style={{ width: '20rem', height: '17rem', cursor: "pointer "}}>
         <Card.Img className='card-image' src={img} />
         <Card.ImgOverlay>
           <Card.Title className='card-title drop-shadow'>{title}</Card.Title>
-          <Card.Text className='card-body drop-shadow'>{text}</Card.Text>       
-          
+          <Card.Text className='card-body drop-shadow'>{text}</Card.Text>
         </Card.ImgOverlay>
       </Card>
     </Col>
