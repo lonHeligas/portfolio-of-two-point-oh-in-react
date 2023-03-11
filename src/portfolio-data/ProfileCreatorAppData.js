@@ -2,13 +2,13 @@ import React from 'react';
 import profileImage from "../images/profilecreatorimg.png"
 
 const ProfileCreatorApp = [
-  {title:  "Profile Creator for Your Team",
+  {title:  "Game",
   text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
   gitUrl: "git URL",
   webUrl: "web blurb",
   img: profileImage},
 
-  {title:  "Profile Creator for Your Team",
+  {title:  "Smorgasbord",
   text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
   gitUrl: "git URL",
   webUrl: "web blurb",
