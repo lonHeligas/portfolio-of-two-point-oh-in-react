@@ -8,7 +8,7 @@ import "../styles/bio.css"
 const BioImage = () => {
   return(
     <div className='module-border-wrap'>
-      <img className="bio-image module" style={{ width: 400 }} src={portrait} alt="Portrait of the portfolio author."
+      <img className="bio-image module" style={{ width: 500 }} src={portrait} alt="Portrait of the portfolio author."
       />
      </div>
   )
