@@ -20,7 +20,7 @@ const ProfileCreatorApp = [
   img: smorgasbord}, 
 
   {title:  "Profile Creator for Your Team",
-  text: "text blurbtext blurbtext ",
+  text: "Create your team members with their roles and specific information for each role. ",
   gitUrl: "git URL",
   webUrl: "",
   img: profileImage}, 

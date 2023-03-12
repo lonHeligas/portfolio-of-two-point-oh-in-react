@@ -21,6 +21,8 @@
 
 
 
+
+
 .card-text {
   font-size: 1.4rem;
   color: orange;
@@ -33,10 +35,10 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-/* .button-group {
+.button-group {
   margin-bottom: 20px;
   
-} */
+}
 
 .button-link {
   margin: 10px;
