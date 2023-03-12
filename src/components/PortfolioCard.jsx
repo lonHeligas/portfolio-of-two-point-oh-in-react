@@ -2,9 +2,12 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Card, Col } from 'react-bootstrap';
-import PortfolioLarger from './PortfolioLarger';
+// import PortfolioLarger from './PortfolioLarger';
 import Button from 'react-bootstrap/Button';
 import "../styles/portfoliocard.css"
+import { Github } from 'react-bootstrap-icons';
+import { Html5 } from 'react-bootstrap-icons';
+
 
 
 
@@ -22,10 +25,12 @@ const PortfolioCard = ({title, text, img, gitUrl}) => {
         <Card.ImgOverlay>
           <Card.Title className='card-title drop-shadow'>{title}</Card.Title>
           <Card.Text className='card-text drop-shadow'>{text}</Card.Text>
-          
+
           <Router>
             <Link to ={gitUrl} target="_blank"  >
-              <button img="../images/icons/github.svg">Git Repo</button>             
+              <Button size="lg" variant="warning">
+              <Github />
+              </Button>             
             </Link>
           </Router>
         </Card.ImgOverlay> 
