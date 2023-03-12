@@ -51,10 +51,10 @@ const ContactPage = (props) => {
         <Form.Control as="textarea" rows={3} type="comment" id="comment" onChange={handleUpdateForm} />
       </Form.Group>
       {isReady?
-     <Button variant="primary" type="submit" >
+     <Button variant="warning" type="submit" >
      Submit
    </Button>
-      : <Button variant="primary" type="submit" disabled >
+      : <Button variant="warning" type="submit" disabled >
       Submit
     </Button>
     }

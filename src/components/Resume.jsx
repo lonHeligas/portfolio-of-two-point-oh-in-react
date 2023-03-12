@@ -7,20 +7,20 @@ const Resume = (props) => {
 
 
   return (
-    <>      
-      <div class="name">
-      <h1>Lon Heligas - WIP</h1>
+    <div className="everything">      
+      <div className="name">
+      <h1>Lon Heligas</h1>
     </div>
-    <div class="address-info">
-      <div class="address"><h4>St. Paul, MN</h4></div>
-      <div class="ph-number"><h4>651.253.4403</h4></div>
-      <div class="email"><h4>lon.heligas@gmail.com</h4></div>
+    <div className="address-info">
+      <div className="address"><h4>St. Paul, MN</h4></div>
+      <div className="ph-number"><h4>651.253.4403</h4></div>
+      <div className="email"><h4><a href="mailto:lon.heligas@gmail.com" text="lon.heligas@gmail.com" /></h4></div>
     </div>
-    {/* <div class="divider"></div> */}
+    {/* <div className="divider"></div> */}
 
-    <div class="prof-summary">
+    <div className="prof-summary">
       <h2>Professional Summary</h2>
-      <div class="summary-text">
+      <div className="summary-text">
         <p>
           Highly experienced web-based Content Developer with strong editing
           skills and an excellent knowledge of management of said projects.
@@ -30,17 +30,17 @@ const Resume = (props) => {
       </div>
     </div>
 
-    <div class="experience>">
-      <div class="experience-title">
+    <div className="experience>">
+      <div className="experience-title">
         <h2>Experience:</h2>
         <div>
-          <div class="company">
-            <div class="company-title">
+          <div className="company">
+            <div className="company-title">
               <h3>Allen Interactions</h3>
             </div>
-            <div class="work-role">
+            <div className="work-role">
               <h5>Custom Content Developer 2015-2022</h5>
-              <div class="role-bullet">
+              <div className="role-bullet">
                 <ul>
                   <li>
                     Championed the conversion of strategic customer legacy Flash
@@ -78,9 +78,9 @@ const Resume = (props) => {
                 </ul>
               </div>
             </div>
-            <div class="work-role">
+            <div className="work-role">
               <h5>Interaction Developer 2005-2016</h5>
-              <div class="role-bullet">
+              <div className="role-bullet">
                 <ul>
                   <li>
                     Designed user-friendly software interfaces to streamline
@@ -107,9 +107,9 @@ const Resume = (props) => {
                 </ul>
               </div>
             </div>
-            <div class="work-role">
+            <div className="work-role">
               <h5>Quality Assurance Specialist 2004-2007</h5>
-              <div class="role-bullet">
+              <div className="role-bullet">
                 <ul>
                   <li>
                     Identified issues in software processes and implemented
@@ -129,9 +129,9 @@ const Resume = (props) => {
             </div>
           </div>
         </div>
-        <div class="education">
+        <div className="education">
           <h3>Education:</h3>
-          <div class="education-info">
+          <div className="education-info">
             <p>ST. CLOUD STATE UNIVERSITY, St. Cloud, MN</p>
             <p>
               Bachelor of Arts, Major: English-Writing Minor: Graphic Design
@@ -140,7 +140,7 @@ const Resume = (props) => {
         </div>
       </div>
     </div>
-    </>
+    </div>
   )
 }
 export default Resume;
