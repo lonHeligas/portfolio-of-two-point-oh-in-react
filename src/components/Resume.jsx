@@ -1,5 +1,7 @@
 import React from 'react';
 import { propTypes } from 'react-bootstrap/esm/Image';
+import Button from 'react-bootstrap/Button';
+import { FiletypePdf } from 'react-bootstrap-icons';
 import "../styles/resume.css"
 
 
@@ -10,11 +12,16 @@ const Resume = (props) => {
     <div className="everything">      
       <div className="name">
       <h1>Lon Heligas</h1>
+      <Button className="download-button" variant="warning" href="../downloads/LonHeligas_resume.pdf" target="_blank">
+        <FiletypePdf />
+      </Button>
+
     </div>
     <div className="address-info">
+      
       <div className="address"><h4>St. Paul, MN</h4></div>
       <div className="ph-number"><h4>651.253.4403</h4></div>
-      <div className="email"><h4><a href="mailto:lon.heligas@gmail.com" text="lon.heligas@gmail.com" /></h4></div>
+      <div className="email"><h4><a className="email-link" target="_blank" href="mailto:lon.heligas@gmail.com">lon.heligas@gmail.com</a></h4></div>
     </div>
     {/* <div className="divider"></div> */}
 

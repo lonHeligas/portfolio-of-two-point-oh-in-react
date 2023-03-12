@@ -38,6 +38,10 @@ h1 {
  
 }
 
+.email-link {
+  color: orange
+}
+
 
 h2 {
   color: white;
@@ -72,9 +76,18 @@ p, li {
 
 
 .name {
+  display: flex;
    color: white;
   text-align: center;
   animation: fadeIn .5s;
+  margin-bottom: 20px;
+}
+
+.download-button{
+  margin-left: 30px;
+  height: 43px;
+  border-radius: 6px;
+  border-color: red;
 }
 
 .banner-image{
@@ -155,4 +168,12 @@ p, li {
   }
 }
 
+
+@media screen and (max-width: 600px){
+  .address-info{
+    flex-direction: column;
+  }
+
+
+}
 
