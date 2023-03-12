@@ -8,15 +8,17 @@ import "../styles/portfoliocard.css"
 // console.log(`title is: ${title}`); 
 
 
-const PortfolioCard = ({title, text, img}) => {
+const PortfolioCard = ({title, text, img, gitUrl}) => {
   
   return (
     <Col className="card-columns" md="6">
-      <Card className='p-1 card-body' style={{ width: '20rem', height: '17rem', cursor: "pointer "}}>
+      <Card className='p-1 card-body' style={{ width: '20rem', height: '19rem'}}>
         <Card.Img className='card-image' src={img} />
-        <Card.Title className='card-title drop-shadow'>{title}</Card.Title>
+        <Card.ImgOverlay>
+          <Card.Title className='card-title drop-shadow'>{title}</Card.Title>
           <Card.Text className='card-text drop-shadow'>{text}</Card.Text>
-          <a href="{href}"/>
+          <a href="{gitUrl}"/>
+        </Card.ImgOverlay> 
 
 
         

@@ -1,6 +1,12 @@
-/* .card-image {
-  
-} */
+.card-image {
+  filter: blur(2px);
+  filter: sepia(80%);
+  filter: opacity(50%);
+}
+
+
+
+
 
 /* .card-columns {
   display: flex;
@@ -13,9 +19,11 @@
   margin-right: auto;
 }
 
+
+
 .card-text {
-  font-size: 1rem;
-  color: red;
+  font-size: 1.4rem;
+  color: orange;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -31,12 +39,13 @@
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 } */
 
-.card-title {
+.card-title { 
   font-size: 30px !important;
   color: orangered;  
   
+  
 }
 .drop-shadow {  
-  text-shadow: 2px 2px black
+  text-shadow: .15rem .15rem .1rem rgba(0,0,0,.8);
 }
 
