@@ -1,13 +1,9 @@
 import React from "react";
 import NavButton from "./NavButton";
 import { IntroPage, PortfolioPage, ResumePage, ContactPage } from "../pages";
-
+import "../styles/navigation.css";
 
 const Navigation = (props) => {
-
-  
-
-  
   
   const NavSections = [
     { name: "About Me", href: '/' },
@@ -18,7 +14,7 @@ const Navigation = (props) => {
 
   
   return (
-    <header style={{ borderBottom: "5px solid #333" }}>
+    <header className="nav-header" style={{ borderBottom: "5px solid #333" }}>
       <nav
         className="navbar navbar-dark navbar-expand-md bg-body-secondary"
         data-bs-theme="dark"
