@@ -1,14 +1,19 @@
-import React from 'react';
+import * as React from 'react';
+import { Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Card, Col } from 'react-bootstrap';
 import PortfolioLarger from './PortfolioLarger';
 import Button from 'react-bootstrap/Button';
 import "../styles/portfoliocard.css"
 
 
+
 // console.log(`title is: ${title}`); 
 
 
 const PortfolioCard = ({title, text, img, gitUrl}) => {
+
+  // const gitPage = {gitUrl};
   
   return (
     <Col className="card-columns" md="6">
@@ -17,7 +22,12 @@ const PortfolioCard = ({title, text, img, gitUrl}) => {
         <Card.ImgOverlay>
           <Card.Title className='card-title drop-shadow'>{title}</Card.Title>
           <Card.Text className='card-text drop-shadow'>{text}</Card.Text>
-          <a href="{gitUrl}"/>
+          
+          <Router>
+            <Link to ={gitUrl} target="_blank"  >
+              <button img="../images/icons/github.svg">Git Repo</button>             
+            </Link>
+          </Router>
         </Card.ImgOverlay> 
 
 

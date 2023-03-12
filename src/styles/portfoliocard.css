@@ -1,7 +1,7 @@
 .card-image {
   filter: blur(2px);
   filter: sepia(80%);
-  filter: opacity(50%);
+  filter: opacity(20%);
 }
 
 
