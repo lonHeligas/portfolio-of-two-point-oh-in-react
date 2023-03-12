@@ -6,18 +6,18 @@ import Button from 'react-bootstrap/Button';
 const Footer = () => {
 
     return (
-     <div className="footer-bottom">
-      <Button className="footer-button">
+     <div className="footer-bottom" style={{zIndex:1}}>
+      <Button className="footer-button bg-transparent" size="lg">
           One
       </Button>      
-      <Button className="footer-button">
+      <Button className="footer-button bg-transparent" size="lg">
           Two
       </Button>
         <h3 className="footer-text">Copyright © 2023 Lon Heligas</h3>
-      <Button className="footer-button">
+      <Button className="footer-button bg-transparent" size="lg">
           Three
       </Button>
-      <Button className="footer-button">
+      <Button className="footer-button bg-transparent"size="lg">
           Four
       </Button>
      

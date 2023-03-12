@@ -21,19 +21,20 @@ const PortfolioCard = ({title, text, img, gitUrl, webUrl}) => {
           <Card.Text className='card-text drop-shadow'>{text}</Card.Text>
 
         </Card.ImgOverlay> 
-        
+            <div className="button-group" style={{zIndex:1}}>
             <Link className="card-button" to ={gitUrl} target="_blank"  >
-              <Button size="lg" variant="warning">
+              <Button className="button-link" size="lg" variant="warning">
               <Github/ >
               </Button>             
             </Link>
             { webUrl && 
             (<Link className="card-button" to ={webUrl} target="_blank"  >
-              <Button size="lg" variant="warning">
+              <Button className="button-link" size="lg" variant="warning">
               <BrowserChrome />
               </Button>             
             </Link>)
             }
+            </div>
           
       </Card>
     </Col>
