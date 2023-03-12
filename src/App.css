@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  /* display:flex; */
+  text-align: center; 
+  min-height: 100vh;
+  /* flex-direction: column; */
 }
 
 .App-logo {
@@ -36,3 +39,5 @@
     transform: rotate(360deg);
   }
 }
+
+

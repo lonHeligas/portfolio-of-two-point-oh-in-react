@@ -16,7 +16,7 @@ function App() {
 
 
   return (
-    <Wrapper>      
+    <Wrapper className="wrapper">      
       <Header />   
       
         {/* <Routes>
