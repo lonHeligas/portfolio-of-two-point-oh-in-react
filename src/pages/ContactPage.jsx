@@ -3,6 +3,7 @@ import { useState } from "react"
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import validator from "validator";
+import "../styles/contact.css"
 
 
 
@@ -33,7 +34,7 @@ const ContactPage = (props) => {
 
 
   return (
-    <Form style={{ width: '300px '}}>
+    <Form className = "contact-form" >
       <Form.Group className="mb-3" >
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" id="email" onChange={handleUpdateForm}/>

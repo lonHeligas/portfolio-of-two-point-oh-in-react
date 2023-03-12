@@ -5,7 +5,7 @@ const ProfileCreatorApp = [
   {title:  "Find a Free Game",
   text: "Find a free game in our easy to use search engine.",
   gitUrl: "https://github.com/lonHeligas/find-videogame-project-main-local",
-  webUrl: "web blurb",
+  webUrl: "",
   img: profileImage},
 
   {title:  "Smorgasbord",
@@ -15,25 +15,25 @@ const ProfileCreatorApp = [
   img: profileImage}, 
 
   {title:  "Profile Creator for Your Team",
-  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  text: "text blurbtext blurbtext ",
   gitUrl: "git URL",
   webUrl: "web blurb",
   img: profileImage}, 
   
   {title:  "Password Generator",
-  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  text: "text text blurbtext blurb",
   gitUrl: "git URL",
   webUrl: "web blurb",
   img: profileImage},
 
   {title:  "Weather U Need to Know",
-  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  text: "text text blurbtext blurb",
   gitUrl: "git URL",
   webUrl: "web blurb",
   img: profileImage},
   
   {title:  "Quiz for Geeks",
-  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
+  text: "text text blurbtext blurb",
   gitUrl: "git URL",
   webUrl: "web blurb",
   img: profileImage}

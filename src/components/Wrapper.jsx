@@ -1,7 +1,7 @@
 const Wrapper = ({children}) => {
 
   return (
-    <div style={{ height: "100vh", backgroundColor: "#111"}}>
+    <div style={{ minHeight: "100vh", backgroundColor: "#111"}}>
       { children }
     </div>
   )

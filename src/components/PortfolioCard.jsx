@@ -6,18 +6,12 @@ import { Card, Col } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import "../styles/portfoliocard.css"
 import { Github } from 'react-bootstrap-icons';
-import { Html5 } from 'react-bootstrap-icons';
+import { BrowserChrome } from 'react-bootstrap-icons';
 
+const PortfolioCard = ({title, text, img, gitUrl, webUrl}) => {
 
-
-
-// console.log(`title is: ${title}`); 
-
-
-const PortfolioCard = ({title, text, img, gitUrl}) => {
-
-  // const gitPage = {gitUrl};
   
+
   return (
     <Col className="card-columns" md="6">
       <Card className='p-1 card-body' style={{ width: '20rem', height: '19rem'}}>
@@ -26,18 +20,21 @@ const PortfolioCard = ({title, text, img, gitUrl}) => {
           <Card.Title className='card-title drop-shadow'>{title}</Card.Title>
           <Card.Text className='card-text drop-shadow'>{text}</Card.Text>
 
-          <Router>
-            <Link to ={gitUrl} target="_blank"  >
+        </Card.ImgOverlay> 
+        
+            <Link className="card-button" to ={gitUrl} target="_blank"  >
               <Button size="lg" variant="warning">
-              <Github />
+              <Github/ >
               </Button>             
             </Link>
-          </Router>
-        </Card.ImgOverlay> 
-
-
-        
-
+            { webUrl && 
+            (<Link className="card-button" to ={webUrl} target="_blank"  >
+              <Button size="lg" variant="warning">
+              <BrowserChrome />
+              </Button>             
+            </Link>)
+            }
+          
       </Card>
     </Col>
     )

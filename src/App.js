@@ -1,6 +1,6 @@
 import './App.css';
 // import { useState } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 import { Header, Wrapper, Footer } from './components';
 import { IntroPage, PortfolioPage, ResumePage, ContactPage } from './pages';
 import "./styles/global.css"
@@ -13,16 +13,7 @@ function App() {
   console.log(page);
 
 
-  /*
-  <Routes>
-    <Route path="/" element={<HomePage user={user} />} />
-    <Route path="/login" element={<LoginPage />} />
-    <Route path="/profile" element={<ProfilePage user={user} />} />
-    <Route path="/signup" element={<SignupPage />} />
-  </Routes>
 
-
-  */
 
   return (
     <Wrapper>      
@@ -36,12 +27,12 @@ function App() {
         </Routes>    
         We'll have to look at this and figure it out later
               */}
-
-      { page === '' && <IntroPage />}
-      { page === 'contact' && <ContactPage />}
-      { page === 'portfolio' && <PortfolioPage />}
-      { page === 'resume' && <ResumePage />}
-/
+      <BrowserRouter>
+        { page === '' && <IntroPage />}
+        { page === 'contact' && <ContactPage />}
+        { page === 'portfolio' && <PortfolioPage />}
+        { page === 'resume' && <ResumePage />}
+      </BrowserRouter>
       <Footer />       
     </Wrapper>
   );
