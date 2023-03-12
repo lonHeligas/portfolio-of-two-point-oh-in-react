@@ -20,26 +20,26 @@ const ProfileCreatorApp = [
   img: smorgasbord}, 
 
   {title:  "Profile Creator for Your Team",
-  text: "Create your team members with their roles and specific information for each role. ",
-  gitUrl: "git URL",
+  text: "Create your team members with specific information for each role. ",
+  gitUrl: "https://github.com/lonHeligas/profile-creator-for-your-team",
   webUrl: "",
   img: profileImage}, 
   
   {title:  "Password Generator",
   text: "Create a randomly generated password with paramaters you define",
-  gitUrl: "git URL",
+  gitUrl: "https://github.com/lonHeligas/random-password-generator",
   webUrl: "",
   img: randompasswordgenerator},
 
   {title:  "Weather U Need to Know",
   text: "Find out the weather for your location. You need to know it.",
-  gitUrl: "git URL",
+  gitUrl: "https://github.com/lonHeligas/weather-u-need-to-know",
   webUrl: "",
   img: weattheruneed2know},
   
   {title:  "Quiz for Geeks and Other People",
   text: "A quick quiz for geeks and other people",
-  gitUrl: "git URL",
+  gitUrl: "https://github.com/lonHeligas/quiz-for-geeks-and-other-people",
   webUrl: "",
   img: quizforgeeks}]
 
