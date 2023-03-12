@@ -1,14 +1,18 @@
 .footer-text {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 35px;
   text-shadow: .3rem .3rem .1rem rgba(175,0,100,.5);  
 }
 
 .footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   margin-top: auto;
   background-color: orange;  
   border-top: 2px solid red;
-  position: absolute;
+  position: sticky;
   width: 100%;
   height: 100px;
   bottom: 0;
@@ -20,7 +24,7 @@
   text-align: center;
 }
 
-.footer-buttons {
-  padding-left: 20px;
+.footer-button {
+  margin-left: 20px;
 }
   

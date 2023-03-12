@@ -34,6 +34,7 @@ const ContactPage = (props) => {
 
 
   return (
+    <div className="contact-page">
     <Form className = "contact-form" >
       <Form.Group className="mb-3" >
         <Form.Label>Email address</Form.Label>
@@ -60,6 +61,7 @@ const ContactPage = (props) => {
     }
       
     </Form>
+    </div>
   );
 };
 
