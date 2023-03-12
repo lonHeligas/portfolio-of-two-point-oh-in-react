@@ -1,43 +1,47 @@
 import React from 'react';
 import profileImage from "../images/profilecreatorimg.png"
+import quizforgeeks from "../images/quizforgeeks.png"
+import randompasswordgenerator from "../images/randompasswordgenerator.png"
+import smorgasbord from "../images/smorgasbord.png"
+import weattheruneed2know from "../images/weattheruneed2know.png"
+import findagame from "../images/findagame.png"
 
 const ProfileCreatorApp = [
   {title:  "Find a Free Game",
   text: "Find a free game in our easy to use search engine.",
   gitUrl: "https://github.com/lonHeligas/find-videogame-project-main-local",
   webUrl: "",
-  img: profileImage},
+  img: findagame},
 
   {title:  "Smorgasbord",
   text: "Find a new restaurant to visit with our simple user-generated ratings board.",
   gitUrl: "https://github.com/lonHeligas/smorgasbord-local",
-  webUrl: "https://smorgasboard-local.herokuapp.com/",
-  img: profileImage}, 
+  webUrl: "https://smorgasbord.herokuapp.com/",
+  img: smorgasbord}, 
 
   {title:  "Profile Creator for Your Team",
   text: "text blurbtext blurbtext ",
   gitUrl: "git URL",
-  webUrl: "web blurb",
+  webUrl: "",
   img: profileImage}, 
   
   {title:  "Password Generator",
-  text: "text text blurbtext blurb",
+  text: "Create a randomly generated password with paramaters you define",
   gitUrl: "git URL",
-  webUrl: "web blurb",
-  img: profileImage},
+  webUrl: "",
+  img: randompasswordgenerator},
 
   {title:  "Weather U Need to Know",
-  text: "text text blurbtext blurb",
+  text: "Find out the weather for your location. You need to know it.",
   gitUrl: "git URL",
-  webUrl: "web blurb",
-  img: profileImage},
+  webUrl: "",
+  img: weattheruneed2know},
   
-  {title:  "Quiz for Geeks",
-  text: "text text blurbtext blurb",
+  {title:  "Quiz for Geeks and Other People",
+  text: "A quick quiz for geeks and other people",
   gitUrl: "git URL",
-  webUrl: "web blurb",
-  img: profileImage}
-]
+  webUrl: "",
+  img: quizforgeeks}]
 
 
 export default ProfileCreatorApp
