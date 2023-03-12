@@ -49,6 +49,10 @@
     size: .5rem;
     text-align: center;
     color: white;
-    filter: drop-shadow(.3rem .3rem .1rem rgba(175,0,100,.5));
+    filter: drop-shadow(.3rem .3rem .1rem rgba(175,0,100,.5));    
+  }
+
+  .footer-icons:hover {
+    color: orange !important;    
   }
   }

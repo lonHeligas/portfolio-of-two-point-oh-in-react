@@ -79,7 +79,7 @@ p, li {
   display: flex;
    color: white;
   text-align: center;
-  animation: fadeIn .5s;
+  /* animation: fadeIn .5s; */
   margin-bottom: 20px;
 }
 
@@ -102,12 +102,13 @@ p, li {
   display:flex;
   width: 100%;
   justify-content: space-around;  
-  animation: fadeIn 1s;  }
+  /* animation: fadeIn 1s; */
+  }
 
-.prof-summary{
+/* .prof-summary{
    animation: fadeIn 1.25s;     
   
-}
+} */
 
 .summary-text{
   
@@ -116,7 +117,7 @@ p, li {
   
 }
 
-.experience-title{
+/* .experience-title{
     animation: fadeIn 1.5s;
 }
 
@@ -141,11 +142,11 @@ p, li {
 
 .education{
      animation: fadeIn 2.75s;
-}
+} */
 
 .education-info{
   padding-left: 50px;     
-  animation: fadeIn 3s;  
+  /* animation: fadeIn 3s;   */
 }
 
 .summary-text{
