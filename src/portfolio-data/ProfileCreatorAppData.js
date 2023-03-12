@@ -2,16 +2,16 @@ import React from 'react';
 import profileImage from "../images/profilecreatorimg.png"
 
 const ProfileCreatorApp = [
-  {title:  "Game",
-  text: "text blurbtext",
-  gitUrl: "git URL",
+  {title:  "Find a Free Game",
+  text: "Find a free game in our easy to use search engine.",
+  gitUrl: "https://github.com/lonHeligas/find-videogame-project-main-local",
   webUrl: "web blurb",
   img: profileImage},
 
   {title:  "Smorgasbord",
-  text: "text blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurbtext blurb",
-  gitUrl: "git URL",
-  webUrl: "web blurb",
+  text: "Find a new restaurant to visit with our simple user-generated ratings board.",
+  gitUrl: "https://github.com/lonHeligas/smorgasbord-local",
+  webUrl: "https://smorgasboard-local.herokuapp.com/",
   img: profileImage}, 
 
   {title:  "Profile Creator for Your Team",

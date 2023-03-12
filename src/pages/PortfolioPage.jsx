@@ -9,8 +9,8 @@ const PortfolioPage = (props) => {
 
   return (
     <>
-    <h1>Portfolio</h1>
-    <CardGroup>     
+    
+    <CardGroup className="card-group" >     
       {ProfileCreatorApp.map(info => <PortfolioCard {...info} />)}       
     </CardGroup>
     </>

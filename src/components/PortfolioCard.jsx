@@ -14,11 +14,13 @@ const PortfolioCard = ({title, text, img}) => {
     <Col className="card-columns" md="6">
       <Card className='p-1 card-body' style={{ width: '20rem', height: '17rem', cursor: "pointer "}}>
         <Card.Img className='card-image' src={img} />
-        <Card.ImgOverlay>
-          <Card.Title className='card-title drop-shadow'>{title}</Card.Title>
-          {/* <Card.Text className='card-body drop-shadow'>{text}</Card.Text> */}
+        <Card.Title className='card-title drop-shadow'>{title}</Card.Title>
+          <Card.Text className='card-text drop-shadow'>{text}</Card.Text>
+          <a href="{href}"/>
 
-        </Card.ImgOverlay>
+
+        
+
       </Card>
     </Col>
     )

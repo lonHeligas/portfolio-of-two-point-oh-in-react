@@ -1,5 +1,4 @@
-.nav-header {
-
+.nav-header {  
   display: flex;
   flex-direction: row;  
   height: 8rem;  
@@ -9,3 +8,4 @@
   background: linear-gradient(230deg, #6b0504, #a3320b, #e6af2e);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+

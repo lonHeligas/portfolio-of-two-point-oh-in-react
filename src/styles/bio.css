@@ -1,7 +1,7 @@
-.bio-text {
+/* .bio-text {
   color: purple;
-  margin-left: 500px;
-}
+  margin-left: 500px;  
+} */
 
 .intro-page-layout {
   display: flex;
@@ -11,8 +11,13 @@
 }
 
 .bio-text-body {
-  margin-left: 50px !important;
+  margin-left: 100px !important;
   margin-top: 10px !important;  
+  font-size: 2rem;
+}
+
+.bio-text-body p {
+  font-size: 1.3rem;
 }
 
 .h2 {
