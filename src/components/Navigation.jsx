@@ -14,7 +14,7 @@ const Navigation = (props) => {
 
   
   return (
-    <header className="nav-header" style={{ borderBottom: "5px solid #333" }}>
+    <header className="nav-header" style={{ borderBottom: "5px solid #333 zIndex: 2"  }}>
       <nav
         className="navbar navbar-dark navbar-expand-md bg-body-secondary"
         data-bs-theme="dark"
