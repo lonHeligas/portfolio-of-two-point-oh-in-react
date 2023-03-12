@@ -3,13 +3,11 @@
 [This is the repository for this challenge](https://github.com/lonHeligas/portfolio-of-two-point-oh-in-react)
 
 
+
+
 ## Challenges I encountered
 
-I should note that this app is currently incomplete, as the following things are missing:
-ALL of the styling (it looks pretty ugly at the moment)
-The Github and weblinks in the portfolio section
-All of the portfolio pieces and the functionality for the cards
-The text formatting and download function for the resume
+Getting
 
 I love working with React, but my head gets away from myself and I want to work on a dozen things at once. The fact that I'm not done with this yet (I will be by the end of the week and then I'll resubmit it) is evidence of that.
 
