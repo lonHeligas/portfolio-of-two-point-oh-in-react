@@ -7,9 +7,9 @@
 
 ## Challenges I encountered
 
-Getting
+The whole thing, honestly. But I found out that focusing on one thing at a time helped immensely.
 
-I love working with React, but my head gets away from myself and I want to work on a dozen things at once. The fact that I'm not done with this yet (I will be by the end of the week and then I'll resubmit it) is evidence of that.
+I love working with React, but my head gets away from myself and I want to work on a dozen things at once. 
 
 ## Your Task
 
