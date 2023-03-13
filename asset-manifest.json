@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-of-two-point-og/static/css/main.0e0faf03.css",
-    "main.js": "/portfolio-of-two-point-og/static/js/main.41ff4ad0.js",
-    "static/js/787.a777ed2a.chunk.js": "/portfolio-of-two-point-og/static/js/787.a777ed2a.chunk.js",
-    "static/media/findagame.png": "/portfolio-of-two-point-og/static/media/findagame.39df7a531e099dceabb2.png",
-    "static/media/portfolio_portrait.jpg": "/portfolio-of-two-point-og/static/media/portfolio_portrait.23977bc163402899e4f9.jpg",
-    "static/media/smorgasbord.png": "/portfolio-of-two-point-og/static/media/smorgasbord.15691a246841a54373ed.png",
-    "static/media/quizforgeeks.png": "/portfolio-of-two-point-og/static/media/quizforgeeks.b400367613d616c3a017.png",
-    "static/media/profilecreatorimg.png": "/portfolio-of-two-point-og/static/media/profilecreatorimg.4aae21ab916cfbc80e11.png",
-    "static/media/weattheruneed2know.png": "/portfolio-of-two-point-og/static/media/weattheruneed2know.3fabf046d00780d11a7d.png",
-    "static/media/randompasswordgenerator.png": "/portfolio-of-two-point-og/static/media/randompasswordgenerator.05715c128dc85198db04.png",
-    "index.html": "/portfolio-of-two-point-og/index.html",
-    "main.0e0faf03.css.map": "/portfolio-of-two-point-og/static/css/main.0e0faf03.css.map",
-    "main.41ff4ad0.js.map": "/portfolio-of-two-point-og/static/js/main.41ff4ad0.js.map",
-    "787.a777ed2a.chunk.js.map": "/portfolio-of-two-point-og/static/js/787.a777ed2a.chunk.js.map"
+    "main.css": "/portfolio-of-two-point-oh-in-react/static/css/main.0e0faf03.css",
+    "main.js": "/portfolio-of-two-point-oh-in-react/static/js/main.6781b17b.js",
+    "static/js/787.a777ed2a.chunk.js": "/portfolio-of-two-point-oh-in-react/static/js/787.a777ed2a.chunk.js",
+    "static/media/findagame.png": "/portfolio-of-two-point-oh-in-react/static/media/findagame.39df7a531e099dceabb2.png",
+    "static/media/portfolio_portrait.jpg": "/portfolio-of-two-point-oh-in-react/static/media/portfolio_portrait.23977bc163402899e4f9.jpg",
+    "static/media/smorgasbord.png": "/portfolio-of-two-point-oh-in-react/static/media/smorgasbord.15691a246841a54373ed.png",
+    "static/media/quizforgeeks.png": "/portfolio-of-two-point-oh-in-react/static/media/quizforgeeks.b400367613d616c3a017.png",
+    "static/media/profilecreatorimg.png": "/portfolio-of-two-point-oh-in-react/static/media/profilecreatorimg.4aae21ab916cfbc80e11.png",
+    "static/media/weattheruneed2know.png": "/portfolio-of-two-point-oh-in-react/static/media/weattheruneed2know.3fabf046d00780d11a7d.png",
+    "static/media/randompasswordgenerator.png": "/portfolio-of-two-point-oh-in-react/static/media/randompasswordgenerator.05715c128dc85198db04.png",
+    "index.html": "/portfolio-of-two-point-oh-in-react/index.html",
+    "main.0e0faf03.css.map": "/portfolio-of-two-point-oh-in-react/static/css/main.0e0faf03.css.map",
+    "main.6781b17b.js.map": "/portfolio-of-two-point-oh-in-react/static/js/main.6781b17b.js.map",
+    "787.a777ed2a.chunk.js.map": "/portfolio-of-two-point-oh-in-react/static/js/787.a777ed2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e0faf03.css",
-    "static/js/main.41ff4ad0.js"
+    "static/js/main.6781b17b.js"
   ]
 }
