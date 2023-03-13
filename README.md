@@ -2,7 +2,7 @@
 
 [This is the repository for this challenge](https://github.com/lonHeligas/portfolio-of-two-point-oh-in-react)
 
-
+[This is the link to the live version of my portfolio](https://lonheligas.github.io/portfolio-of-two-point-oh-in-react/#/)
 
 
 ## Challenges I encountered
