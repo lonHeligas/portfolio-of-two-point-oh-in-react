@@ -28,19 +28,19 @@ const ProfileCreatorApp = [
   {title:  "Password Generator",
   text: "Create a randomly generated password with paramaters you define",
   gitUrl: "https://github.com/lonHeligas/random-password-generator",
-  webUrl: "",
+  webUrl: "https://lonheligas.github.io/random-password-generator/",
   img: randompasswordgenerator},
 
   {title:  "Weather U Need to Know",
   text: "Find out the weather for your location. You need to know it.",
   gitUrl: "https://github.com/lonHeligas/weather-u-need-to-know",
-  webUrl: "",
+  webUrl: "https://lonheligas.github.io/weather-u-need-to-know/",
   img: weattheruneed2know},
   
   {title:  "Quiz for Geeks and Other People",
   text: "A quick quiz for geeks and other people",
   gitUrl: "https://github.com/lonHeligas/quiz-for-geeks-and-other-people",
-  webUrl: "",
+  webUrl: "https://lonheligas.github.io/quiz-for-geeks-and-other-people/",
   img: quizforgeeks}]
 
 
@@ -57,9 +57,3 @@ export default ProfileCreatorApp
 
 
 
-/*
-todo  title:    Profile Creator for Your Team
-//    github:   https://github.com/lonHeligas/profile-creator-for-your-team
-//    Website:  https://lonheligas.github.io/profile-creator-for-your-team/
-//    tec used: HTML / JS / OOP
-*/
