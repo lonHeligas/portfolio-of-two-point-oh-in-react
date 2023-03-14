@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-of-two-point-oh-in-react/static/css/main.0e0faf03.css",
-    "main.js": "/portfolio-of-two-point-oh-in-react/static/js/main.714302ed.js",
+    "main.css": "/portfolio-of-two-point-oh-in-react/static/css/main.0d4aa951.css",
+    "main.js": "/portfolio-of-two-point-oh-in-react/static/js/main.db3b3076.js",
     "static/js/787.a777ed2a.chunk.js": "/portfolio-of-two-point-oh-in-react/static/js/787.a777ed2a.chunk.js",
     "static/media/findagame.png": "/portfolio-of-two-point-oh-in-react/static/media/findagame.39df7a531e099dceabb2.png",
     "static/media/portfolio_portrait.jpg": "/portfolio-of-two-point-oh-in-react/static/media/portfolio_portrait.23977bc163402899e4f9.jpg",
@@ -11,12 +11,12 @@
     "static/media/weattheruneed2know.png": "/portfolio-of-two-point-oh-in-react/static/media/weattheruneed2know.3fabf046d00780d11a7d.png",
     "static/media/randompasswordgenerator.png": "/portfolio-of-two-point-oh-in-react/static/media/randompasswordgenerator.05715c128dc85198db04.png",
     "index.html": "/portfolio-of-two-point-oh-in-react/index.html",
-    "main.0e0faf03.css.map": "/portfolio-of-two-point-oh-in-react/static/css/main.0e0faf03.css.map",
-    "main.714302ed.js.map": "/portfolio-of-two-point-oh-in-react/static/js/main.714302ed.js.map",
+    "main.0d4aa951.css.map": "/portfolio-of-two-point-oh-in-react/static/css/main.0d4aa951.css.map",
+    "main.db3b3076.js.map": "/portfolio-of-two-point-oh-in-react/static/js/main.db3b3076.js.map",
     "787.a777ed2a.chunk.js.map": "/portfolio-of-two-point-oh-in-react/static/js/787.a777ed2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e0faf03.css",
-    "static/js/main.714302ed.js"
+    "static/css/main.0d4aa951.css",
+    "static/js/main.db3b3076.js"
   ]
 }
