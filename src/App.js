@@ -18,7 +18,7 @@ function App() {
         <Header />   
         <Routes>
           <Route path="/portfolio" element={<PortfolioPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          {/* <Route path="/contact" element={<ContactPage />} /> */}
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/" element={<IntroPage />} />
         </Routes>

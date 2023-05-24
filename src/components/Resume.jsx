@@ -29,15 +29,19 @@ const Resume = (props) => {
       <h2>Professional Summary</h2>
       <div className="summary-text">
         <p>
-          Highly experienced web-based Content Developer with strong editing
-          skills and an excellent knowledge of management of said projects.
-          Works closely with project team members to problem solve, devise and
-          format website content as per Style Guides.
+        Full stack Web Developer with a background in English and a career in eLearning development. Trained at the University of Minnesota Coding Bootcamp and earned a Certificate in Full Stack Web Development. Experienced problem-solver who enjoys working on a team and contributing with other passionate people. 
         </p>
       </div>
     </div>
 
-    <div className="experience>">
+    <div className="techskills">
+      <h4>Technical Skills</h4>
+      <p><strong>Languages</strong>: JavaScript ES6+, CSS3, HTML 5, MySQL, NoSQL</p>
+      <p><strong>Applications</strong>: GitHub, MongoDB, Jira, Bitbucket</p>
+      <p><strong>Tools</strong>: Express, React, Node.JS, Handlebars, JQuery, Bootstrap</p>
+    </div>
+
+    <div className="experience">
       <div className="experience-title">
         <h2>Experience:</h2>
         <div>
@@ -139,7 +143,9 @@ const Resume = (props) => {
         <div className="education">
           <h3>Education:</h3>
           <div className="education-info">
-            <p>ST. CLOUD STATE UNIVERSITY, St. Cloud, MN</p>
+            <p>University of Minnesota, MN</p>
+            <p>Full Stack Web Development Boot Camp - Certificate</p>
+            <p>St. Cloud State University, St. Cloud, MN</p>
             <p>
               Bachelor of Arts, Major: English-Writing Minor: Graphic Design
             </p>

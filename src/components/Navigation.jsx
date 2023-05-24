@@ -8,7 +8,7 @@ const Navigation = (props) => {
   const NavSections = [
     { name: "About Me", href: '/' },
     { name: "Portfolio", href: '/portfolio' },
-    { name:"Contact", href: '/contact' },
+    // { name:"Contact", href: '/contact' },
     { name:"Resume", href: '/resume' }
   ];
 
