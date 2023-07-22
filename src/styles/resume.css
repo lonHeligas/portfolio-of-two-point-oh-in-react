@@ -1,26 +1,23 @@
 body {
-  backdrop-filter: grayscale(100%) opacity(100%) brightness(100%) blur(50px);
-  
+  backdrop-filter: grayscale(100%) opacity(100%) brightness(100%) blur(50px);  
 }
 
 .everything {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   margin-left: 30px;
   margin-right: 30px;
-  padding: 10px;
-  
+  padding: 10px;  
   border-radius: 30px 30px 30px 30px;
   background: linear-gradient(120deg, #6b0504, #a3320b, #e6af2e);
-  /* padding: 3px; */
-  
 }
 
-.divider {
+
+/* .divider {
    display:block;
   position: absolute;
     top:60px;
@@ -29,19 +26,16 @@ body {
   width:0%;
   text-align:center;
   animation: line .75s linear forwards;
-}
+} */
 
-h1 {
-  /* background-image: url(""); */
+h1 {  
   color: white;  
-  font-family: Arial, Calibri, sans-serif;
- 
+  font-family: Arial, Calibri, sans-serif; 
 }
 
 .email-link {
   color: orange
 }
-
 
 h2 {
   color: white;
@@ -68,6 +62,10 @@ h5 {
   
 }
 
+
+p {
+  margin-left: 20px;
+}
 p, li { 
   color: white;
   font-family: Arial, Calibri, sans-serif;
@@ -78,8 +76,9 @@ p, li {
 .name {
   display: flex;
    color: white;
-  text-align: center;
-  /* animation: fadeIn .5s; */
+   justify-content: center;
+
+  text-align: center;  
   margin-bottom: 20px;
 }
 
@@ -88,6 +87,10 @@ p, li {
   height: 43px;
   border-radius: 6px;
   border-color: red;
+}
+
+.work-role {
+  margin-left: 20px
 }
 
 .banner-image{
@@ -101,77 +104,30 @@ p, li {
   text-align: center;
   display:flex;
   width: 100%;
-  justify-content: space-around;  
-  /* animation: fadeIn 1s; */
+  justify-content: space-around;    
   }
 
   .techskills {
     text-align: left;
+    margin-left: 20px;
+    line-height: 100% !important
   }
 
-/* .prof-summary{
-   animation: fadeIn 1.25s;     
-  
-} */
-
-.summary-text{
-  
-  margin-left: 20px;
-  padding-right: 10px;
-  
+.summary-text{  
+  /* margin-left: 20px; */
+  padding-right: 10px;  
 }
-
-/* .experience-title{
-    animation: fadeIn 1.5s;
-}
-
-.company{
-    animation: fadeIn 1.75s;
-}
-
-.company-title{
-   margin-bottom: 20px;
-  animation: fadeIn 2s;
-}
-
-.work-role{
-  padding-left: 25px;
-  animation: fadeIn 2.25s;
-}
-
-.role-bullet{   
-  animation: fadeIn 2.5s;
- 
-}
-
-.education{
-     animation: fadeIn 2.75s;
-} */
 
 .education-info{
-  padding-left: 50px;     
-  /* animation: fadeIn 3s;   */
+ line-height: 90%; 
+ margin-left: 10px;
 }
 
 .summary-text{
-  padding-left: 20px;
+  padding-left: 20px;  
+  margin-bottom: 0rem !important;
 }
 
-@keyframes fadeIn {
-   0% { opacity: 0;}   
-    100% { opacity: 1;}
-}
-
-@keyframes line {
-  from {
-    left:50%;
-    width:0%;
-  }
-  to {
-    left:5%;
-    width:90%;
-  }
-}
 
 
 @media screen and (max-width: 600px){
@@ -179,6 +135,5 @@ p, li {
     flex-direction: column;
   }
 
-
 }
-
+ 

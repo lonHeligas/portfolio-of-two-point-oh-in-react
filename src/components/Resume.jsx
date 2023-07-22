@@ -63,7 +63,7 @@ const Resume = (props) => {
                     Orchestrated new standard processes to simplify content
                     migration, reducing content development times by 70%.
                   </li>
-                  <li>
+                  {/* <li>
                     Developed automation tools to reduce redundancy and enhance
                     workflow, resulting in a 50% reduction in content migration
                     times.
@@ -80,8 +80,8 @@ const Resume = (props) => {
                     Engaged clients to gather software requirements/business
                     rules, ensure alignment with development teams, and defined
                     requirements to enable successful projects and high customer
-                    satisfaction,
-                  </li>
+                    satisfaction.
+                  </li> */}
                   <li>
                     Partnered closely with team members to keep projects on
                     track and meet anticipated deadlines.
@@ -100,21 +100,21 @@ const Resume = (props) => {
                   </li>
                   <li>
                     Tested software to ensure a high-quality experience through
-                    troubleshooting, testing, and coding,
+                    troubleshooting, testing, and coding.
                   </li>
                   <li>
                     Spearheaded the documentation of technical specifications
                     and created project testing methods used in software
                     auditing.
                   </li>
-                  <li>
+                  {/* <li>
                     Strategized with project managers to understand system load
                     limitations and plan strategies to meet customer demands.
                   </li>
                   <li>
                     Collaborated with product and engineering team members to
                     define and develop new product concepts.
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -126,10 +126,10 @@ const Resume = (props) => {
                     Identified issues in software processes and implemented
                     optimization techniques resulting in productivity increase.
                   </li>
-                  <li>
+                  {/* <li>
                     Assisted clients and internal staff with troubleshooting to
                     quickly resolve software issues.
-                  </li>
+                  </li> */}
                   <li>
                     Delivered end-user training on content management systems
                     allowing staff to make easy updates and maintenance to

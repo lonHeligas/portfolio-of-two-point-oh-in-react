@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, li, td, th, blockquote, label, input, textarea, select {
   font-size: 1.15rem;
-  line-height: 165%;
+  /* line-height: 165%; */
 }
 
 p {
