@@ -1,1 +1,1 @@
-web: npm run start
+web: npm run build && npx serve build
